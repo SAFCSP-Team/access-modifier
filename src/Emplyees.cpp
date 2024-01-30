@@ -1,40 +1,3 @@
-# For Loop
-
-### Objective
-
-In this project, our main goal is to understand how to build a class with specified aceess modifiers and how to access private properities using methods.
-
-### Problem
-
-Build employees class with the mentioned private properity and method below: 
-
-### Implementation
-
-- In `Employee` class:
-
-1. Declatre private salary
-
-2. Declatre setSalary(newSalary){} to access and update salary propetiry
-
-
-- In `main` function:
-
-3. Call setSalary(){} method and pass the new salary in the function parameter to access and update salary propetiry
-
-
-Ouput of this project should be as below:
-
-```
-ID: 1
-Name: Ahmed
-Role: Software developer
-Salary: 10000
-
-```
-  
-  
-```cpp
-
 
 #include <iostream>
 
@@ -82,6 +45,3 @@ int main()
 
     return 0;
 };
-
-
-```
