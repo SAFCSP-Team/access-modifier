@@ -1,28 +1,29 @@
-# For Loop
+# Access modifier
+
 
 ### Objective
 
-In this project, our main goal is to understand how to build a class with specified aceess modifiers and how to access private properities using methods.
+In this project, our main goal is to understand how to build a class with specified access modifiers and how to access private properties using methods.
 
 ### Problem
 
-Build employees class with the mentioned private properity and method below: 
+Build employees class, with the mentioned private property and method below: 
 
 ### Implementation
 
-- In `Employee` class:
+- In the `Employee` class:
 
-1. Declatre private salary
+1. Declare private salary
 
-2. Declatre setSalary(newSalary){} to access and update salary propetiry
-
-
-- In `main` function:
-
-3. Call setSalary(){} method and pass the new salary in the function parameter to access and update salary propetiry
+2. Declare setSalary(newSalary){} to access and update salary property
 
 
-Ouput of this project should be as below:
+- In the `main` function:
+
+3. Call setSalary(){} method and pass the new salary in the function parameter to access and update the salary property
+
+
+The output of this project should be as follows:
 
 ```
 ID: 1
@@ -44,7 +45,7 @@ class Employee
 {
 
     /* Add your code here
-    1. declatre private salary
+    1. declare private salary
     */
 
 public:
@@ -62,7 +63,7 @@ public:
     }
 
     /* Add your code here
-    2. Declatre setSalary(newSalary){} to access and update salary propetiry
+    2. Declare setSalary(newSalary){} to access and update salary property
     */
 };
 
@@ -75,7 +76,7 @@ int main()
     employee1.name = "Ahmed";
     employee1.role = "Software developer";
     /* Add your code here
-   3. Call setSalary(){} method and pass the new salary in the function parameter to access and update salary propetiry
+   3. Call setSalary(){} method and pass the new salary in the function parameter to access and update the salary property
    */
 
     employee1.printInfo();
