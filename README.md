@@ -10,6 +10,7 @@ In this project, our main goal is to understand how to build a class with specif
 Build employees class, with the mentioned private property and method below
 
 ### Implementation
+<br/>
 
 - In the `Employee` class:
 
@@ -19,6 +20,7 @@ Build employees class, with the mentioned private property and method below
 
 3. Create `getSalary()` method to get and return salary property data
 
+<br/>
 
 
 - In the `main` function:
@@ -28,6 +30,8 @@ Build employees class, with the mentioned private property and method below
 5. Call `getSalary()` method and print the id value
 
 6. Assign `id` a value and print it's value
+<br/>
+<br/>
 
   
 ```cpp
