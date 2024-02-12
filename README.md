@@ -29,7 +29,7 @@ Build employees class, with the mentioned private property and method below
    
 5. Call `getSalary()` method and print the id value
 
-6. Assign `id` a value and print it's value
+6. Print `id` value
 <br/>
 <br/>
 
