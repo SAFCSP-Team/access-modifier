@@ -7,24 +7,29 @@ In this project, our main goal is to understand how to build a class with specif
 
 ### Problem
 
-Build employees class, with the mentioned private property and method below: 
+Build employees class, with the mentioned private property and method below
 
 ### Implementation
 
 - In the `Employee` class:
 
-1. Declare private salary
+1. Declare private salary property
 
-2. Declare setSalary(newSalary){} to access and update salary property
+2. Create `setSalary()` method to access and update salary property
+
+3. Create `getSalary()` method to get and return salary property data
+
 
 
 - In the `main` function:
 
-3. Call setSalary(){} method and pass the new salary in the function parameter to access and update the salary property
+4. Call `setSalary()` method and pass the new salary in the function parameter to access and update the salary property   
+   
+5. Call `getSalary()` method and print its value
 
-
+   
 The output of this project should be as follows:
-
+   
 ```
 ID: 1
 Name: Ahmed
@@ -39,14 +44,12 @@ Salary: 10000
 
 #include <iostream>
 
-    using namespace std;
+using namespace std;
 
 class Employee
 {
 
-    /* Add your code here
-    1. declare private salary
-    */
+    /* Add your code here */
 
 public:
     int id;
