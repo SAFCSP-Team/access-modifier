@@ -14,22 +14,22 @@ Build employees class, with the mentioned private property and method below
 
 - In the `Employee` class:
 
-1. Declare private salary property
+1. Declare private salary property.
 
-2. Create `setSalary()` method to access and update salary property
+2. Create `setSalary()` method with a `public` access modifier, to access and update salary property.
 
-3. Create `getSalary()` method to get and return salary property data
+3. Create `getSalary()` method with a `public` access modifier, to get and return salary property data.
 
 <br/>
 
 
 - In the `main` function:
 
-4. Call `setSalary()` method and pass the new salary in the function parameter to access and update the salary property   
+4. Call `setSalary()` method and pass the new salary in the function parameter to access and update the salary property.
    
-5. Call `getSalary()` method and print the id value
+5. Call `getSalary()` method and print the id value.
 
-6. Print `id` value
+6. Print `id` value.
 <br/>
 <br/>
 
