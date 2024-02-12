@@ -25,26 +25,18 @@ Build employees class, with the mentioned private property and method below
 
 4. Call `setSalary()` method and pass the new salary in the function parameter to access and update the salary property   
    
-5. Call `getSalary()` method and print its value
+5. Call `getSalary()` method and print the id value
 
-   
-The output of this project should be as follows:
-   
-```
-ID: 1
-Name: Ahmed
-Role: Software developer
-Salary: 10000
+6. Assign `id` a value and print it's value
 
-```
-  
   
 ```cpp
 
 
+
 #include <iostream>
 
-using namespace std;
+    using namespace std;
 
 class Employee
 {
@@ -55,19 +47,8 @@ public:
     int id;
     string name;
     string role;
+    /* Add your code here */
 
-    void printInfo()
-    {
-
-        cout << "ID: " << id << endl;
-        cout << "Name: " << name << endl;
-        cout << "Role: " << role << endl;
-        cout << "Salary: " << salary << endl;
-    }
-
-    /* Add your code here
-    2. Declare setSalary(newSalary){} to access and update salary property
-    */
 };
 
 int main()
@@ -76,16 +57,10 @@ int main()
     Employee employee1;
 
     employee1.id = 1;
-    employee1.name = "Ahmed";
-    employee1.role = "Software developer";
-    /* Add your code here
-   3. Call setSalary(){} method and pass the new salary in the function parameter to access and update the salary property
-   */
-
-    employee1.printInfo();
+    
+    /* Add your code here */
 
     return 0;
 };
-
 
 ```
