@@ -6,9 +6,7 @@
 class Employee
 {
 
-    /* Add your code here
-    1. declatre private salary
-    */
+    /* Add your code here */
 
 public:
     int id;
@@ -24,9 +22,7 @@ public:
         cout << "Salary: " << salary << endl;
     }
 
-    /* Add your code here
-    2. Declatre setSalary(newSalary){} to access and update salary propetiry
-    */
+    /* Add your code here */
 };
 
 int main()
@@ -37,9 +33,7 @@ int main()
     employee1.id = 1;
     employee1.name = "Ahmed";
     employee1.role = "Software developer";
-    /* Add your code here
-   3. Call setSalary(){} method and pass the new salary in the function parameter to access and update salary propetiry
-   */
+    /* Add your code here */
 
     employee1.printInfo();
 
