@@ -7,7 +7,7 @@ In this project, our main goal is to understand how to build a class with specif
 
 ### Problem
 
-Build employees class, with the mentioned private property and method below
+Build an employee class, with the mentioned private property and method below
 
 ### Implementation
 <br/>
